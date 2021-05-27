@@ -1,0 +1,59 @@
+*{
+    text-decoration: none;
+    overflow: none;box-sizing: border-box;
+}
+body{
+    height: 100%;
+    background-color: #7D2D0E;
+    font-size: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: #FFFADE;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.box{
+    color: #B75E3C;
+    /* border: 1px solid red; */
+    padding: 1%;
+    text-align: center;
+}
+.name{
+    flex-grow: 7;
+    font-size: 2em;
+    text-align: start;
+}
+span{
+    background-color: black;padding: 0px 5px; border-radius: 50%;
+}
+
+main{
+    color: #FFFADE;
+    text-align: center;
+/*
+    background-image: url(images/alesia-kazantceva-VWcPlbHglYc-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+}
+main > img{
+    width: 100%;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    background-color: black;
+    color: #B75E3C;
+    width: 100%;
+}
+footer > div{
+    margin-left: 2%;
+}
